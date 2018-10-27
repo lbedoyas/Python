@@ -18,7 +18,7 @@ def insert():
             "age": employeeage,
             "country": employeecountry
         })
-        print ('Inserted data successfully')
+        print ('Insertados datos Exitosamente')
 
     except ImportError:
         platform_specific_module = None
